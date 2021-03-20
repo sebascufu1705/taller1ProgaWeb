@@ -17,21 +17,6 @@
   }
 }
 
-.banner {
-  background-image: url("../imgs/banner.png");
-  height: 600px;
-  background-size: cover;
-  background-position: center;
-  margin: 50px 70px;
-}
-
-@media screen and (max-width: 500px) {
-  .banner {
-    margin: 40px 20px;
-    height: 166px;
-  }
-}
-
 .carrousel {
   margin: auto;
   height: 600px;
@@ -108,46 +93,6 @@
   }
 }
 
-.advertisement__img {
-  background-image: url("../imgs/ad.png");
-  height: 624px;
-  background-size: cover;
-  background-position: center;
-  margin: 50px 70px;
-}
-
-.advertisement__text {
-  width: 40%;
-  font-size: large;
-  margin-left: 5%;
-}
-
-.advertisement__btn {
-  margin-left: 5%;
-  margin-top: 2%;
-  width: 20%;
-  padding: 6px;
-}
-
-@media screen and (max-width: 500px) {
-  .advertisement__img {
-    background-image: url("../imgs/ad.png");
-    height: 166px;
-    background-size: cover;
-    background-position: center;
-    margin: 20px 10px;
-  }
-  .advertisement__text {
-    display: none;
-    width: 40%;
-    font-size: large;
-    margin-left: 5%;
-  }
-  .advertisement__btn {
-    margin-left: 40%;
-  }
-}
-
 .contact {
   background-image: url("../imgs/contact.png");
   background-size: cover;
@@ -218,13 +163,6 @@
             flex-direction: column;
     margin-bottom: 20px;
   }
-}
-
-.btn {
-  background-color: #6C0E23;
-  color: white;
-  font-family: "Playfair Display";
-  border: 0;
 }
 
 .slider {
